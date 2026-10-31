@@ -60,3 +60,48 @@ c) É importante que a ordem de leitura acompanhe a ordem visual, para não caus
 21) O valor padrão do order é 0, quem irá aparecer por primeiro é o -1.
 
 22)
+O filho com align-self: flex-end fica alinhado no final. Já o filho com align-self: auto segue o alinhamento do pai, que é stretch.
+
+23)
+Usamos align-items para alinhar todos os elementos de uma vez e align-self para mudar o alinhamento de apenas um elemento.
+
+24)
+Os itens de .pagina são: header, miolo e footer.
+Os itens de .miolo são: aside e main.
+
+
+25)
+Porque o display: flex permite organizar o menu e o texto lado a lado, dentro do miolo.
+
+26)
+O display: flex ativa o Flexbox e permite organizar os elementos. 
+
+O flex-direction: column coloca os elementos um abaixo do outro. 
+
+O min-height: 100vh define a altura mínima da página como a altura da tela. 
+
+No .miolo, o display: flex organiza o menu e o texto lado a lado. 
+
+O flex: 1 faz o elemento ocupar o espaço restante. 
+
+O aside possui largura fixa de 10rem, enquanto o main ocupa o espaço disponível e o min-width: 0 permite que ele diminua de largura sem ultrapassar os limites.
+
+27)
+O erro foi colocar flex-grow: 1 no contêiner. O jeito correto seria por ele nos elementos filhos para que possam ocupar o espaço disponível.
+
+
+28)
+Podemos usar o flex-shrink: 1 para diminuir o tamanho dos itens ou o min-width: 0 para fazer com que eles encolham sem ultrapassar o espaço disponível.
+
+29)
+flex-basis: define o tamanho inicial que um elemento terá dentro do Flexbox.
+
+flex-grow: permite que um elemento cresça e ocupe o espaço disponível.
+
+flex-shrink: prrmite que um elemento diminua de tamanho quando falta espaço.
+
+order: define a ordem visual em que os elementos aparecem na tela.
+
+align-self: permite alterar o alinhamento de apenas um elemento, sem mudar os outros.
+
+
