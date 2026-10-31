@@ -54,7 +54,9 @@ Os resultados são diferentes porque flex: 1 começa do zero e divide toda a fai
 
 20) 
 a) C,A,B
-b) A,B, c
+
+b) A,B,C
+
 c) É importante que a ordem de leitura acompanhe a ordem visual, para não causa confusão para pessoas que usam leitores de tela.
 
 21) O valor padrão do order é 0, quem irá aparecer por primeiro é o -1.
